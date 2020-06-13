@@ -16,7 +16,7 @@ export default {
 	plugins: [],
 	modeles: {
 		loaders: [
-			{test: /\.js$/, exclude: /node_modeles/, loader: {'babel'}},
+			{test: /\.js$/, exclude: /node_modeles/, loader: ['babel']},
 			{test: /\.css$/, loaders: ['style', 'css']}
 		]
 	}
